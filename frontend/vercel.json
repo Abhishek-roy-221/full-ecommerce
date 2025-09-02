@@ -1,8 +1,13 @@
-  {
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/"
-      }
-    ]
-  }
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ],
+  "projects": [
+    {
+      "rootDirectory": "frontend"
+    }
+  ]
+}
